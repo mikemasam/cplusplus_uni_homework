@@ -8,7 +8,7 @@ int main(){
     int random_card_number = 0;
     //pick random card from array of cards
     srand(time(NULL));
-    random_card_number = rand() % 13 + 1;
+    random_card_number = rand() % 13;
     card = cards[random_card_number];
 
     std::cout << "I'm thinking of a card!\n";
